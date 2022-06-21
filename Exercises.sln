@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.960
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Form1", "Form1\Form1.csproj", "{8F6244A0-1836-4E7F-B2BD-4292D44D07DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloVisualWorld", "HelloVisualWorld\HelloVisualWorld.csproj", "{06E5E594-17AA-4FEB-95A0-7B06C304690F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InchesToCentimeters", "InchesToCentimeters\InchesToCentimeters.csproj", "{229A434F-EF3E-4292-B45A-72E9FA982A31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectedRaises", "ProjectedRaises\ProjectedRaises.csproj", "{CA827E47-83B7-4C44-9F7F-A778FD53B85B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter3", "Chapter3", "{06FCDA76-8864-4D11-831A-0B6B29A57312}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoveEstimator", "..\Exercises\MoveEstimator\MoveEstimator.csproj", "{4D657033-2FE7-4A5B-94EA-5B43A7EE5DBE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8F6244A0-1836-4E7F-B2BD-4292D44D07DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F6244A0-1836-4E7F-B2BD-4292D44D07DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F6244A0-1836-4E7F-B2BD-4292D44D07DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F6244A0-1836-4E7F-B2BD-4292D44D07DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06E5E594-17AA-4FEB-95A0-7B06C304690F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06E5E594-17AA-4FEB-95A0-7B06C304690F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06E5E594-17AA-4FEB-95A0-7B06C304690F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06E5E594-17AA-4FEB-95A0-7B06C304690F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{229A434F-EF3E-4292-B45A-72E9FA982A31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{229A434F-EF3E-4292-B45A-72E9FA982A31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{229A434F-EF3E-4292-B45A-72E9FA982A31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{229A434F-EF3E-4292-B45A-72E9FA982A31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA827E47-83B7-4C44-9F7F-A778FD53B85B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA827E47-83B7-4C44-9F7F-A778FD53B85B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA827E47-83B7-4C44-9F7F-A778FD53B85B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA827E47-83B7-4C44-9F7F-A778FD53B85B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D657033-2FE7-4A5B-94EA-5B43A7EE5DBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D657033-2FE7-4A5B-94EA-5B43A7EE5DBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D657033-2FE7-4A5B-94EA-5B43A7EE5DBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D657033-2FE7-4A5B-94EA-5B43A7EE5DBE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8F6244A0-1836-4E7F-B2BD-4292D44D07DC} = {06FCDA76-8864-4D11-831A-0B6B29A57312}
+		{06E5E594-17AA-4FEB-95A0-7B06C304690F} = {06FCDA76-8864-4D11-831A-0B6B29A57312}
+		{229A434F-EF3E-4292-B45A-72E9FA982A31} = {06FCDA76-8864-4D11-831A-0B6B29A57312}
+		{CA827E47-83B7-4C44-9F7F-A778FD53B85B} = {06FCDA76-8864-4D11-831A-0B6B29A57312}
+		{4D657033-2FE7-4A5B-94EA-5B43A7EE5DBE} = {06FCDA76-8864-4D11-831A-0B6B29A57312}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8FA7939D-A9E0-4FC0-9667-9D9163AFDA33}
+	EndGlobalSection
+EndGlobal
