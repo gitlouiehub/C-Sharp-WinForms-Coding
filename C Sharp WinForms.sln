@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectedRaises", "Projecte
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter3", "Chapter3", "{06FCDA76-8864-4D11-831A-0B6B29A57312}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoveEstimator", "..\Exercises\MoveEstimator\MoveEstimator.csproj", "{4D657033-2FE7-4A5B-94EA-5B43A7EE5DBE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoveEstimator", "MoveEstimator\MoveEstimator.csproj", "{4D657033-2FE7-4A5B-94EA-5B43A7EE5DBE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
