@@ -13,6 +13,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter3", "Chapter3", "{06
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoveEstimator", "MoveEstimator\MoveEstimator.csproj", "{4D657033-2FE7-4A5B-94EA-5B43A7EE5DBE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EggsInteractive", "EggsInteractive\EggsInteractive.csproj", "{DC6F6368-A4B4-492E-B67C-829E1AF82EEE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,10 @@ Global
 		{4D657033-2FE7-4A5B-94EA-5B43A7EE5DBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D657033-2FE7-4A5B-94EA-5B43A7EE5DBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D657033-2FE7-4A5B-94EA-5B43A7EE5DBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC6F6368-A4B4-492E-B67C-829E1AF82EEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC6F6368-A4B4-492E-B67C-829E1AF82EEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC6F6368-A4B4-492E-B67C-829E1AF82EEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC6F6368-A4B4-492E-B67C-829E1AF82EEE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -44,6 +50,7 @@ Global
 		{229A434F-EF3E-4292-B45A-72E9FA982A31} = {06FCDA76-8864-4D11-831A-0B6B29A57312}
 		{CA827E47-83B7-4C44-9F7F-A778FD53B85B} = {06FCDA76-8864-4D11-831A-0B6B29A57312}
 		{4D657033-2FE7-4A5B-94EA-5B43A7EE5DBE} = {06FCDA76-8864-4D11-831A-0B6B29A57312}
+		{DC6F6368-A4B4-492E-B67C-829E1AF82EEE} = {06FCDA76-8864-4D11-831A-0B6B29A57312}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8FA7939D-A9E0-4FC0-9667-9D9163AFDA33}
