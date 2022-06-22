@@ -11,7 +11,7 @@ using System.Windows.Forms;
 namespace InchesToCentimeters
 {
     /*
-     * Author: <Luis munoz>
+     * allows the user to input a measurement in inches, click a Button, and output the value in centimeters. There are 2.54 centimeters in an inch.
      * 
      * */
     public partial class InchesToCentimeters : Form

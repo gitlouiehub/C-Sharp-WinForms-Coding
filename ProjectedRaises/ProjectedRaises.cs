@@ -12,6 +12,9 @@ namespace ProjectedRaises
 {
     public partial class ProjectedRaises : Form
     {
+        /*
+         * allows a user to enter an employee’s salary. Then display, with explanatory text, next year’s salary, which reflects a 4 percent increase.
+         * */
         public ProjectedRaises()
         {
             InitializeComponent();
