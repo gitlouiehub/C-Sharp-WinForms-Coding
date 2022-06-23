@@ -22,7 +22,7 @@ namespace MakeChange
 
         private void CalculateButton_Click(object sender, EventArgs e)
         {
-            label2.Visible = true;
+            outputLabel.Visible = true;
             int input = Convert.ToInt16(inputTextBox.Text);
 
             int twenties, ten, fives, ones;
@@ -34,7 +34,10 @@ namespace MakeChange
             numerator = numerator - (5 * fives);
             ones = numerator / 1;
 
-            label2.Text = $"{input.ToString("C0")} is {twenties} twenties, {ten} ten, {fives} fives, and {ones} ones.";
+            outputLabel.Text = $"{input.ToString("C0")} is {twenties} twenties, {ten} ten, {fives} fives, and {ones} ones.";
+
+            inputTextBox.SelectAll();
+            inputTextBox.Focus();
         }
     }
 }

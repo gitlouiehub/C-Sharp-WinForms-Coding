@@ -65,15 +65,17 @@
             // 
             // submitButton
             // 
+            this.submitButton.BackColor = System.Drawing.Color.Black;
             this.tableLayoutPanel1.SetColumnSpan(this.submitButton, 2);
             this.submitButton.Dock = System.Windows.Forms.DockStyle.Fill;
             this.submitButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.submitButton.ForeColor = System.Drawing.Color.White;
             this.submitButton.Location = new System.Drawing.Point(3, 215);
             this.submitButton.Name = "submitButton";
             this.submitButton.Size = new System.Drawing.Size(871, 101);
             this.submitButton.TabIndex = 1;
             this.submitButton.Text = "Submit";
-            this.submitButton.UseVisualStyleBackColor = true;
+            this.submitButton.UseVisualStyleBackColor = false;
             this.submitButton.Click += new System.EventHandler(this.SubmitButton_Click);
             // 
             // pigLatinLabel
@@ -107,8 +109,10 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
+            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(877, 319);
             this.Controls.Add(this.tableLayoutPanel1);
+            this.MaximizeBox = false;
             this.Name = "PigLatinForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Pig Latin";
