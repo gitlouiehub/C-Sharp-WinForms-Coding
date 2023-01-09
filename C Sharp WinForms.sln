@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.2017
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieFinder", "MovieFinder\MovieFinder.csproj", "{D1B498F0-3575-4B06-BD11-2FF4B36E9CCA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieFinder2", "MovieFinder2\MovieFinder2.csproj", "{584784C5-6B4A-43D5-8A3B-7EE355D1D76B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{D1B498F0-3575-4B06-BD11-2FF4B36E9CCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D1B498F0-3575-4B06-BD11-2FF4B36E9CCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D1B498F0-3575-4B06-BD11-2FF4B36E9CCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{584784C5-6B4A-43D5-8A3B-7EE355D1D76B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{584784C5-6B4A-43D5-8A3B-7EE355D1D76B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{584784C5-6B4A-43D5-8A3B-7EE355D1D76B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{584784C5-6B4A-43D5-8A3B-7EE355D1D76B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
